@@ -1,16 +1,35 @@
-# login_challenge
+# Login challenge
 
-A new Flutter project.
+Um aplicativo desenvolvido em Flutter que realiza cadastroo de usuário e login, utilizando arquitetura limpa, bloc/cubit e injeção de dependência.
 
-## Getting Started
+## Instruções para rodar o projeto
 
-This project is a starting point for a Flutter application.
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-A few resources to get you started if this is your first Flutter project:
+### Pré-requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Certifique-se de ter o Flutter instalado. Se você ainda não o fez, siga as [instruções de instalação do Flutter](https://flutter.dev/docs/get-started/install).
+- Você também precisará de um emulador ou dispositivo físico configurado para executar o aplicativo.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Passos para Executar
+
+1. Clone o repositório do projeto para o seu ambiente local:
+
+   ```bash
+   git@github.com:marcosanf/login_challenge.git
+
+2. Navegue até o diretório do projeto que foi clonado:
+
+   ```bash
+   cd login_challenge
+
+3. Inslale as depedências do projeto, utilizando:
+
+   ```bash
+   flutter pub get
+
+4. Para executar o aplicativo, utilize o comando a seguir na raiz do projeto:
+
+   ```bash
+   flutter run
+
